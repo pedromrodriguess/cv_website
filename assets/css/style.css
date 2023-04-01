@@ -76,7 +76,7 @@ h6 {
 }
 
 #header .profile img {
-  margin: 180px auto;
+  margin: 10px auto;
   display: block;
   width: 150px;
   border: 8px solid #2c2f3f;
@@ -84,7 +84,7 @@ h6 {
 
 #header .profile h1 {
   font-size: 24px;
-  margin: -160px auto;
+  margin: 10px auto;
   padding: 0;
   font-weight: 600;
   -moz-text-align-last: center;
@@ -111,7 +111,7 @@ h6 {
   width: 36px;
   height: 36px;
   transition: 0.3s;
-  margin: 150px auto;
+  margin: 0px auto;
 }
 
 #header .profile .social-links a:hover {
@@ -139,8 +139,8 @@ h6 {
 --------------------------------------------------------------*/
 /* Desktop Navigation */
 .nav-menu {
-  padding: 30px 0 0 75px;
-  margin-top: -160px ;
+  padding: 0px 0 0 75px;
+  top: 30px;
 }
 
 .nav-menu * {
@@ -439,6 +439,7 @@ section {
 
 .skills .progress-bar-wrap {
   background: #dce8f8;
+  width: 400px;
   height: 10px;
 }
 
@@ -447,6 +448,19 @@ section {
   height: 10px;
   transition: 0.9s;
   background-color: #149ddd;
+}
+
+.skills .progress-bar2-wrap {
+  background: #dce8f8;
+  width: 400px;
+  height: 10px;
+}
+
+.skills .progress-bar2 {
+  width: 1px;
+  height: 10px;
+  transition: 0.9s;
+  background-color: #14dd4d;
 }
 
 /*--------------------------------------------------------------

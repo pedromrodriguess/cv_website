@@ -148,6 +148,10 @@
         progress.forEach((el) => {
           el.style.width = el.getAttribute('aria-valuenow') + '%'
         });
+        let progress2 = select('.progress .progress-bar2', true);
+        progress2.forEach((el) => {
+          el.style.width = el.getAttribute('aria-valuenow') + '%'
+        });
       }
     })
   }
